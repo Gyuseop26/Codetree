@@ -8,10 +8,6 @@ int main() {
     a = c;
     a = a + c;
     b = b - c;
-    cout << a;
-    cout << "\n";
-    cout << b;
-    cout << "\n";
-    cout << c;
+    cout << a << "\n" << b << "\n" << c;
     return 0;
 }
