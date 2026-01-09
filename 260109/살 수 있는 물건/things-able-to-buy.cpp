@@ -10,7 +10,7 @@ int main() {
         cout << "book";
     }
     
-    else if (money >= 1000 && money < 3000){
+    else if (money >= 1000){
         cout << "mask";
     }
 
