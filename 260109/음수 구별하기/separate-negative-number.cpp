@@ -9,6 +9,6 @@ int main() {
     
     if(N < 0){
         cout << "minus";
-    };
+    }
     return 0;
 }
