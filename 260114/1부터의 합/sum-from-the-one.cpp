@@ -5,9 +5,9 @@ int main() {
     int n, sum = 0 ;
     cin >> n;
 
-    for (int i = 0; i < 100; i++){
+    for (int i = 0; i <= 100; i++){
         sum += i;
-        
+
         if (sum >= n){
             cout << i ;
             break;
