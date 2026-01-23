@@ -7,7 +7,7 @@ int main() {
 
     cin >> age_1 >> gender_1 >> age_2 >> gender_2;
 
-    if (age_1 >= 10 || age_2 >= 19){
+    if (age_1 >= 19 || age_2 >= 19){
         if (gender_1 == 'M' || gender_2 == 'M') cout << 1;
         else cout << 0;
     }
