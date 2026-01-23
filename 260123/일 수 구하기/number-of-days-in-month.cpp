@@ -10,7 +10,7 @@ int main() {
 
     else if (n < 8) !(n % 2) ? cout << 30 : cout << 31;
     
-    else if (n >= 8) !(n % 2) ? cout << 30 : cout << 31;
-    
+    else if (n >= 8) !(n % 2) ? cout << 31 : cout << 30;
+
     return 0;
 }
