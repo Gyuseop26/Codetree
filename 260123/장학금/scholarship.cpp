@@ -9,6 +9,7 @@ int main() {
     if (mid_term >= 90){
         if (final_term >= 95) cout << 100000;
         else if (final_term >= 90) cout << 50000;
+        else cout << 0;
     }
 
     else cout << 0;
