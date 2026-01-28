@@ -2,16 +2,14 @@
 using namespace std;
 
 int main() {
-    int A, B, temp;
+    int A, B;
     cin >> A >> B;
-    temp = A % B;
-    
+ 
     cout << A/B << '.';
     
     for (int i = 0; i< 20; i++){
-        cout << temp * 10 / B;
-        
-        temp = (temp * 10) % B;
+        A = (A % B) * 10;
+        cout << A/B;
     }
     return 0;
 }
