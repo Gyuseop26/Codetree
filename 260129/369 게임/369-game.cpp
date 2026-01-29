@@ -26,3 +26,18 @@ int main() {
 
     return 0;
 }
+// 문자열 전환 없이 산수로만 푸는 방법
+// else {
+//     int temp = i;
+//     has369 = false;
+//     while (temp > 0){
+//         int R = temp % 10; // 10으로 나눈 나머지. 즉, 일의 자릿수를 확인
+        
+//         if (R == 3 || R == 6 || R == 9){
+//             has369 =true;
+//             break;
+//         }
+//         temp /= 10; //나머지를 잘라낸 나머지 수들만 다시 확인
+//     }
+//     has369 ? cout << 0 << ' ' : cout << i << ' ';
+// }
