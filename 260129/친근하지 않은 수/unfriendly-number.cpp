@@ -9,5 +9,9 @@ int main() {
         
     }
     cout << cnt;
+    
+    //수학적으로 푸는 방법
+    // int friendly = (n/2 + n/3 + n/5) - (n/6 + n/10 + n/ 15) + n/30;
+    // cout << n - friendly;
     return 0;
 }
