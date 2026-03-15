@@ -2,20 +2,19 @@
 using namespace std;
 
 int main() {
-    int n, arr[100], cnt = 2;
+    int n, arr[100];
     cin >> n;
+    
     arr[0] = 1;
     arr[1] = n;
     
+    cout << arr[0] << ' ' << arr[1] << ' ';
+    
     for (int i = 2; i < 100; i++){
         arr[i] = arr[i-2] + arr[i-1];
-        if (arr[i] >= 100) break;
-        cnt++;
-    }
 
-    for (int i = 0; i < cnt + 1; i++){
         cout << arr[i] << ' ';
+        if (arr[i] > 100) break;
     }
-
     return 0;
 }
