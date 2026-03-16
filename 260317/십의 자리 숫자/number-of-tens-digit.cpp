@@ -3,8 +3,10 @@ using namespace std;
 
 int main() {
     int count_num[10] = {0, }, num;
-    for (int i = 0; i < 10; i++){
+    while(true){
         cin >> num;
+        if (num == 0) break;
+        
         count_num[num / 10]++;
     }
 
